@@ -46,6 +46,8 @@ python lag_prompt.py --vurdering eksempler/mat0015-elev-a.json --kall
 
 Andre valg: `--lagre fil.txt` skriver prompten til fil, `--effort` styrer hvor grundig modellen tenker (standard `medium`), `--rq` peker på en lokal kopi av spørringen. Endepunktet kan byttes med miljøvariabelen `GREP_SPARQL_URL`.
 
+Ett kall med `--kall` koster rundt 0,13 USD med Opus 5.5. Se [docs/kostnad.md](docs/kostnad.md) for hva det blir for en klasse, en skole og hele landet, og hvordan prisen kan bli lavere.
+
 Datoen er vurderingsdatoen i vurderingsfila hvis den finnes, ellers dagens dato. Det betyr noe: matematikk 1.–10. byttet fra MAT01-05 til MAT01-06 1. august 2026, så en vurdering fra våren 2026 skal leses mot den gamle versjonen.
 
 ## Filer
@@ -58,6 +60,7 @@ Datoen er vurderingsdatoen i vurderingsfila hvis den finnes, ellers dagens dato.
 | `eksempler/*.json` | Oppdiktede vurderingsdata: matematikk 10. trinn, naturfag 10. trinn og matematikk 1T |
 | `demo/` | Ferdige prompter (og svar) som reserve under demo |
 | `docs/demomanus.md` | Manus for en demo på ca. 30 minutter |
+| `docs/kostnad.md` | Overslag over hva `--kall` koster per elev, skole og land |
 
 ## Vurderingsdata
 
