@@ -79,6 +79,6 @@ Formatet er bare et eksempel. Det som betyr noe, er at hver vurdering viser til 
 ## Begrensninger
 
 - Bare læreplaner i LK20. Fagkoder uten LK20-læreplan (for eksempel privatskolekoder og UPF) gir tomt utsnitt.
-- `bygger-paa` er registrert for noen fag (blant annet matematikk 1.–10., 1T, samfunnsfag, engelsk og historie), men ikke for alle.
+- `bygger-paa` er registrert for mange læreplaner, også i yrkesfag, men ikke for alle. 15 gjeldende læreplaner peker på mål i læreplaner som ikke gjelder lenger (for eksempel 1T → MAT01-05, historie → SAF01-04).
 - Forklaring av målene finnes for rundt 400 mål i 77 læreplaner, flest i matematikk og naturfag.
 - Grep-sandkassen er et eksperiment og ikke en tjeneste fra Utdanningsdirektoratet.
