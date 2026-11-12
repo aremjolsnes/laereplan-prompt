@@ -106,7 +106,7 @@ Fellesfag og studieforberedende ↔ ESCO står på idélista (via ISCED-F og kun
 ## 6. Begrensninger (3 min)
 
 - Utsnittet gjelder bare **LK20**. Fagkoder uten LK20-læreplan (privatskolekoder, UPF og forsøk) gir tomt svar. Det er tilsiktet i Grep.
-- **Bygger på** er registrert for mange læreplaner, også i yrkesfag, men ikke for alle. 15 gjeldende læreplaner peker på mål i utgåtte versjoner, blant annet 1T, matematikk 8.–9. (MAT08-01) og historie.
+- **Bygger på** er registrert for mange læreplaner, også i yrkesfag, men ikke for alle. 15 gjeldende læreplaner peker på mål i utgåtte versjoner, blant annet 1T, 1P og historie. Sannsynlig årsak: grunnskoleplanene fikk nye versjoner 1. august 2026, og pekerne fra videregående ble ikke oppdatert.
 - **Forklaring av målet** finnes for rundt 400 mål i 77 læreplaner, flest i matematikk og naturfag.
 - Sandkassen er et eksperiment, ikke en tjeneste fra Udir. Den kjører på en liten maskin og kan være treg første gang.
 - **Ekte elevdata** til en språkmodell krever avklart behandlingsgrunnlag, databehandleravtale og personvernvurdering.
