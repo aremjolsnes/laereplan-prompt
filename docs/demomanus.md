@@ -4,11 +4,13 @@ Ca. 30 minutter med skjermdeling. Hovedsporet er fellesfag og studieforberedende
 
 Alle elevdata i demoen er oppdiktet.
 
+Hva du gjør og hvor, trinn for trinn: se [oeving.md](oeving.md).
+
 ## Før møtet
 
 - [ ] **Vekk Fuseki-maskinen** 2–3 minutter før møtet. Den sover når ingen bruker den, og første spørring kan ta et halvt minutt:
       `curl -s "https://grep-fuseki-v3.fly.dev/ds/query?query=ASK%7B%7D"`
-- [ ] Aktiver venv i `laereplan-prompt` og sjekk at `ANTHROPIC_API_KEY` er satt: `python -c "import os;print(bool(os.environ.get('ANTHROPIC_API_KEY')))"`
+- [ ] Åpne en terminal i `laereplan-prompt` og sjekk at `ANTHROPIC_API_KEY` er satt (pakkene ligger i den vanlige Python-installasjonen, ingen venv): `python -c "import os;print(bool(os.environ.get('ANTHROPIC_API_KEY')))"`
 - [ ] Åpne sparql.mjolne.com med fanene under (punkt 2, 4 og 5) klare.
 - [ ] Stor skrift i terminalen. Ha `demo/` åpen i editoren som reserve: der ligger ferdige prompter og svar hvis nett eller API svikter.
 

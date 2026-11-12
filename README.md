@@ -78,6 +78,7 @@ Datoen er vurderingsdatoen i vurderingsfila hvis den finnes, ellers dagens dato.
 | `eksempler/*.json` | Oppdiktede vurderingsdata: matematikk 10. trinn, naturfag 10. trinn og matematikk 1T |
 | `demo/` | Ferdige prompter (og svar) som reserve under demo |
 | `docs/demomanus.md` | Manus for en demo på ca. 30 minutter |
+| `docs/oeving.md` | Trinn for trinn: hva du gjør og hvor (VS Code, nettleser) i hvert punkt i demoen |
 | `docs/kostnad.md` | Overslag over hva `--kall` koster per elev, skole og land |
 
 ## Vurderingsdata
