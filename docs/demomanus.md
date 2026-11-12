@@ -73,7 +73,7 @@ Poeng: eleven sliter med andregradsuttrykk (KM12759). «Bygger på» peker tilba
 
 ## 4. Fritekstsøk (3 min)
 
-I sparql.mjolne.com:
+I sparql.mjolne.com, endepunktet **«Sandkassen»**. Fritekstindeksen, `text:` og `udir:` finnes ikke på Prod.
 
 ```sparql
 SELECT ?km ?tekst ?score WHERE {
@@ -90,7 +90,7 @@ Prøv også `"kildekritikk"` uten læreplanfilteret (16 treff på tvers av fag).
 
 ## 5. ESCO, kort (2 min)
 
-Alle 223 gjeldende Vg3-læreplaner i yrkesfag har kompetansemål koblet til ESCO-ferdigheter, til sammen 23 940 koblinger, foreslått av en språkmodell og kontrollert med stikkprøver.
+Alle 223 gjeldende Vg3-læreplaner i yrkesfag har kompetansemål koblet til ESCO-ferdigheter, til sammen 23 940 koblinger, foreslått av en språkmodell og kontrollert med stikkprøver. Også denne kjøres i «Sandkassen».
 
 ```sparql
 SELECT ?relasjon ?ferdighet ?type WHERE {

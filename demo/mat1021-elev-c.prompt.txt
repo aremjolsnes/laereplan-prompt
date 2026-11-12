@@ -8,7 +8,7 @@ Slik skal du arbeide:
 - Bygg bare på kompetansemålene i utsnittet. Vis til dem med kode (for eksempel KM13328), slik at læreren kan sjekke.
 - Les verbene i målene slik Udir forklarer dem. Et mål som sier «utforske», krever noe annet enn et mål som sier «bruke».
 - Skill tydelig mellom det vurderingsdataene viser, og det du tolker eller antar.
-- Si fra når grunnlaget er tynt, og nevn kompetansemål som vurderingsdataene ikke sier noe om.
+- Si fra når vurderingsgrunnlaget (elevens vurderinger) er tynt, og nevn kompetansemål som vurderingene ikke sier noe om.
 - Ikke sett karakter, og ikke trekk slutninger om eleven som person. Standpunkt fastsetter læreren etter vurderingsordningen i faget.
 - Skriv på bokmål, kort og konkret.
 
@@ -292,6 +292,6 @@ Matematikk 1T: Eleven kan trekkes ut til skriftlig eksamen. Skriftlig eksamen bl
 Gå gjennom vurderingsdataene opp mot kompetansemålene i læreplanutsnittet, og svar med disse delene:
 
 1. **Hva dataene viser:** For hvert kompetansemål som dataene sier noe om: hva eleven ser ut til å mestre, og hva som er usikkert. Vis til kode og til konkrete vurderinger.
-2. **Hull i grunnlaget:** Kompetansemål som dataene ikke sier noe om, eller bare sier lite om.
+2. **Hull i vurderingsgrunnlaget:** Vurderingsgrunnlaget er elevens vurderinger i <vurderingsdata>, ikke læreplanutsnittet. Nevn kompetansemål i utsnittet som vurderingene ikke sier noe om, eller bare sier lite om. Mangler i selve utsnittet hører hjemme under Forbehold.
 3. **Neste steg:** To til fire konkrete forslag til underveisvurdering eller opplæring. Ta med hvilke mål fra tidligere trinn det kan være lurt å gå tilbake til (der utsnittet har «Bygger på»).
 4. **Forbehold:** Hva læreren bør sjekke selv før hun eller han bruker dette.
