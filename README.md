@@ -1,6 +1,17 @@
 # laereplan-prompt
 
-Fra fagkode til AI-prompt: skriptet henter riktig del av læreplanen fra Grep og setter den sammen med vurderingsdata til en prompt for en språkmodell.
+Dette er et privat initiativ utviklet av Are Mjølsnes med støtte fra Claude Code. Det er ikke et produkt eller en tjeneste fra Utdanningsdirektoratet, og Udir står ikke bak innholdet. Repoet er et eksperiment som skal vise hva som blir mulig når læreplanene i Grep er tilgjengelige som lenkede data.
+
+Spørsmålet er enkelt: Hvis en lærer vil bruke en språkmodell som støtte i vurderingsarbeidet, hvordan sikrer vi at modellen leser elevens resultater mot riktig læreplan? Det er ikke nok å lime inn et kompetansemål. Modellen må vite hvilken versjon av læreplanen som gjaldt da eleven ble vurdert, hva verbene i målet betyr, hvilke kjerneelementer målet hører til og hva det bygger på fra tidligere trinn.
+
+Med repoet kan du:
+
+- hente et presist læreplanutsnitt for en fagkode på en gitt dato, som Markdown eller Turtle;
+- bygge en ferdig prompt av utsnittet og vurderingsdata, og lese, lagre eller dele den;
+- sende prompten til Claude og se hva slags vurderingsstøtte modellen gir, og hva det koster;
+- bruke det som utgangspunkt for en demo eller en diskusjon om AI, læreplaner og vurdering.
+
+Kort sagt: fra fagkode til AI-prompt. Skriptet henter riktig del av læreplanen fra Grep og setter den sammen med vurderingsdata til en prompt for en språkmodell.
 
 ```
 fagkode + dato ──► laereplanutsnitt.rq ──► Grep-sandkassen (SPARQL) ──► liten graf (Turtle)
@@ -27,6 +38,25 @@ python -m venv venv
 venv\Scripts\activate        # Windows (macOS/Linux: source venv/bin/activate)
 pip install -r requirements.txt
 ```
+
+### API-nøkkel (bare for `--kall`)
+
+Uten `--kall` trengs ingen nøkkel. Med `--kall` leser skriptet nøkkelen fra miljøvariabelen `ANTHROPIC_API_KEY`. Lag en nøkkel på [console.anthropic.com](https://console.anthropic.com/settings/keys) og sett den:
+
+```powershell
+# Windows (PowerShell), bare for denne terminalen
+$env:ANTHROPIC_API_KEY = "sk-ant-..."
+
+# Windows, permanent (åpne en ny terminal etterpå)
+setx ANTHROPIC_API_KEY "sk-ant-..."
+```
+
+```bash
+# macOS/Linux (legg linja i ~/.zshrc eller ~/.bashrc for å gjøre den permanent)
+export ANTHROPIC_API_KEY="sk-ant-..."
+```
+
+Sjekk at den er satt: `python -c "import os;print(bool(os.environ.get('ANTHROPIC_API_KEY')))"`. Legg aldri nøkkelen i en fil som sjekkes inn i git.
 
 ## Bruk
 
