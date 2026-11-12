@@ -33,7 +33,7 @@ To måter å spare på:
 - **Gjenbruk av utsnittet (prompt caching).** Systemprompten og utsnittet legges først i prompten og merkes for gjenbruk. Kall nummer to og utover for samme fag koster da 5 % av vanlig inn-pris for den delen. Det første kallet koster litt mer (1,25 ganger), men det betyr lite når mange elever har samme fag.
 - **Kjøring i bunker (Batch API).** Kallene sendes samlet og kommer tilbake innen et døgn, til halv pris. Det passer når ingen trenger svaret med en gang, for eksempel når en vurderingsrunde behandles over natta.
 
-Skriptet bruker ingen av delene i dag.
+Skriptet bruker ingen av delene i dag. Modellen velges med `--modell opus|sonnet|haiku`, og standard er `opus`. Se [README](../README.md#velge-modell).
 
 ## Per kall, med og uten innsparing
 
@@ -43,7 +43,21 @@ Skriptet bruker ingen av delene i dag.
 | Sonnet 5.5 | 0,06 USD | 0,05 USD | **0,02 USD** |
 | Haiku 5.5 | 0,003 USD | – | **0,002 USD** |
 
-Vi har ikke testet om Sonnet og Haiku gir like gode svar som Opus. Det må prøves på eksemplene før man velger billigere modell.
+Kostnadene for Sonnet og Haiku i tabellen er regnet med like lange svar som fra Opus. Testen nedenfor viste at Sonnet skriver kortere svar, så Sonnet blir litt billigere enn tabellen viser.
+
+## Test av billigere modeller (12.11.2026)
+
+Elev A og elev C ble kjørt med alle tre modellene, med samme prompt og effort `medium`. Svarene ligger i `demo/` (`*.svar.md`, `*.sonnet.svar.md` og `*.haiku.svar.md`).
+
+| Modell | Tokens ut (A / C) | Kostnad per kall | Vurdering |
+|---|---|---|---|
+| Opus 5.5 | 4 213 / 3 813 | 0,11–0,13 USD | Grundigst. Leser verbene presist, skiller godt mellom data og tolkning, og har gode forbehold. |
+| Sonnet 5.5 | 2 966 / 2 771 | ca. 0,05 USD | Nesten like god som Opus. Har samme struktur, finner de samme hullene og bruker «Bygger på» riktig. Litt kortere. |
+| Haiku 5.5 | 4 742 / 5 827 | under 0,005 USD | Brukbar, men mindre presis. Den har én faktafeil: den sier at prøven om KM13322 gjaldt to mål, men den gjaldt ett. Den gjentar seg mer, og svaret for elev C mangler tittel. |
+
+Alle de tre modellene viste bare til kompetansemål som finnes i prompten. Det ble sjekket automatisk for alle KM-koder i svarene.
+
+Foreløpig vurdering: **Sonnet ser ut til å være et godt valg til halv pris eller mindre.** Haiku er så billig at den kan være interessant i stor skala, men den trenger en grundigere test, og helst kontroll av svarene. To elever er et lite grunnlag for å konkludere.
 
 ## Hva det blir i praksis
 

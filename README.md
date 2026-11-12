@@ -42,11 +42,29 @@ python lag_prompt.py MAT0015 --format turtle
 
 # Send prompten til Claude og vis svaret (krever ANTHROPIC_API_KEY)
 python lag_prompt.py --vurdering eksempler/mat0015-elev-a.json --kall
+
+# Samme, men med en billigere modell
+python lag_prompt.py --vurdering eksempler/mat0015-elev-a.json --kall --modell sonnet
+python lag_prompt.py --vurdering eksempler/mat0015-elev-a.json --kall --modell haiku
 ```
 
-Andre valg: `--lagre fil.txt` skriver prompten til fil, `--effort` styrer hvor grundig modellen tenker (standard `medium`), `--rq` peker på en lokal kopi av spørringen. Endepunktet kan byttes med miljøvariabelen `GREP_SPARQL_URL`.
+### Velge modell
 
-Ett kall med `--kall` koster rundt 0,13 USD med Opus 5.5. Se [docs/kostnad.md](docs/kostnad.md) for hva det blir for en klasse, en skole og hele landet, og hvordan prisen kan bli lavere.
+`--modell` bestemmer hvilken Claude-modell `--kall` bruker:
+
+| `--modell` | Modell | Pris per kall (ca.) |
+|---|---|---|
+| `opus` (standard) | Claude Opus 5.5 | 0,13 USD |
+| `sonnet` | Claude Sonnet 5.5 | 0,05 USD |
+| `haiku` | Claude Haiku 5.5 | under 0,005 USD |
+
+Sonnet ga nesten like gode svar som Opus i testen. Haiku var brukbar, men mindre presis. Se [docs/kostnad.md](docs/kostnad.md#test-av-billigere-modeller-12112026).
+
+Kostnaden for kallet står nederst i utskriften. Hvis sikkerhetsfilteret avslår et kall til Opus eller Sonnet, prøver API-et en annen modell i samme kall. Haiku har ikke den muligheten.
+
+Andre valg: `--modell` velger modell (se over), `--lagre fil.txt` skriver prompten til fil, `--effort` styrer hvor grundig modellen tenker (standard `medium`), `--rq` peker på en lokal kopi av spørringen. Endepunktet kan byttes med miljøvariabelen `GREP_SPARQL_URL`.
+
+Ett kall med `--kall` koster rundt 0,13 USD med Opus 5.5, som er standard. Se [docs/kostnad.md](docs/kostnad.md) for hva det blir for en klasse, en skole og hele landet, og hvordan prisen kan bli lavere.
 
 Datoen er vurderingsdatoen i vurderingsfila hvis den finnes, ellers dagens dato. Det betyr noe: matematikk 1.–10. byttet fra MAT01-05 til MAT01-06 1. august 2026, så en vurdering fra våren 2026 skal leses mot den gamle versjonen.
 

@@ -10,6 +10,7 @@ Eksempler:
   python lag_prompt.py --vurdering eksempler/mat0015-elev-a.json
   python lag_prompt.py MAT0015 --dato 2025-03-01
   python lag_prompt.py --vurdering eksempler/mat0015-elev-a.json --kall
+  python lag_prompt.py --vurdering eksempler/mat0015-elev-a.json --kall --modell sonnet
 
 --kall krever ANTHROPIC_API_KEY. Vurderingsdataene i eksempler/ er oppdiktet.
 """
@@ -33,8 +34,13 @@ ROT = Path(__file__).resolve().parent
 ENDEPUNKT = os.environ.get('GREP_SPARQL_URL', 'https://grep-fuseki-v3.fly.dev/ds/query')
 RQ_URL = ('https://raw.githubusercontent.com/aremjolsnes/grep-jena-fuseki/main/'
           'docs/eksempler/laereplanutsnitt.rq')
-MODELL = 'claude-opus-5-5'
-PRIS = {'inn': 4.00, 'ut': 20.00}  # USD per million tokens for MODELL
+# Modellene --modell kan velge. Pris i USD per million tokens (inn, ut), hentet 12.11.2026.
+# reserve: om API-et skal prøve en annen modell hvis sikkerhetsfilteret avslår (finnes ikke for Haiku).
+MODELLER = {
+    'opus':   {'id': 'claude-opus-5-5',   'inn': 4.00, 'ut': 20.00, 'reserve': True},
+    'sonnet': {'id': 'claude-sonnet-5-5', 'inn': 2.00, 'ut': 10.00, 'reserve': True},
+    'haiku':  {'id': 'claude-haiku-5-5',  'inn': 0.10, 'ut': 0.50,  'reserve': False},
+}
 
 U = Namespace('http://psi.udir.no/ontologi/kl06/')
 
@@ -217,19 +223,23 @@ def sjekk_koder(vurdering, koder):
 
 # --- 4. Send til Claude --------------------------------------------------------------------------
 
-def kall_claude(system, bruker, effort):
+def kall_claude(system, bruker, effort, modell):
     import anthropic
+    m = MODELLER[modell]
     klient = anthropic.Anthropic()
-    meld('Sender til %s (effort %s) ...\n' % (MODELL, effort))
+    meld('Sender til %s (effort %s) ...\n' % (m['id'], effort))
+    ekstra = {}
+    if m['reserve']:
+        # avslår sikkerhetsfilteret, prøver API-et en annen modell i samme kall
+        ekstra = {'betas': ['server-side-fallback-2026-07-01'], 'fallbacks': 'default'}
     try:
         with klient.beta.messages.stream(
-            model=MODELL,
+            model=m['id'],
             max_tokens=32000,
-            betas=['server-side-fallback-2026-07-01'],
-            fallbacks='default',  # avslår sikkerhetsfilteret, prøver API-et en annen modell i samme kall
             output_config={'effort': effort},
             system=system,
             messages=[{'role': 'user', 'content': bruker}],
+            **ekstra,
         ) as strøm:
             for bit in strøm.text_stream:
                 print(bit, end='', flush=True)
@@ -246,8 +256,8 @@ def kall_claude(system, bruker, effort):
     elif svar.stop_reason == 'max_tokens':
         meld('Svaret ble kuttet (max_tokens).')
     u = svar.usage
-    kost = (u.input_tokens * PRIS['inn'] + u.output_tokens * PRIS['ut']) / 1e6
-    meld('\n%s: %d tokens inn, %d ut, ca. %.2f USD' % (svar.model, u.input_tokens, u.output_tokens, kost))
+    kost = (u.input_tokens * m['inn'] + u.output_tokens * m['ut']) / 1e6
+    meld('\n%s: %d tokens inn, %d ut, ca. %.3f USD' % (svar.model, u.input_tokens, u.output_tokens, kost))
 
 
 # --- Hovedprogram --------------------------------------------------------------------------------
@@ -266,6 +276,8 @@ def main():
     ap.add_argument('--lagre', help='skriv prompten til denne fila i stedet for skjermen')
     ap.add_argument('--kall', action='store_true', help='send prompten til Claude og vis svaret')
     ap.add_argument('--effort', default='medium', choices=['low', 'medium', 'high', 'xhigh', 'max'])
+    ap.add_argument('--modell', default='opus', choices=list(MODELLER),
+                    help='hvilken Claude-modell --kall bruker (standard: opus)')
     a = ap.parse_args()
 
     vurdering = None
@@ -290,7 +302,7 @@ def main():
     meld('Prompt: %d tegn (system %d, bruker %d)' % (len(system) + len(bruker), len(system), len(bruker)))
 
     if a.kall:
-        kall_claude(system, bruker, a.effort)
+        kall_claude(system, bruker, a.effort, a.modell)
         return
     prompt = '=== SYSTEM ===\n\n%s\n\n=== BRUKER ===\n\n%s\n' % (system, bruker)
     if a.lagre:
