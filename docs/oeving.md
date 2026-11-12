@@ -10,7 +10,10 @@ Du trenger tre ting:
 ## Før du starter (10 minutter før)
 
 1. **Åpne prosjektet i VS Code:** Velg **File → Open Folder…** og deretter `C:\Users\AMJ\git\grep-sandkasse\laereplan-prompt`.
-2. **Åpne en terminal:** Velg **Terminal → New Terminal**. Terminalen åpnes nederst i vinduet og står allerede i riktig mappe.
+2. **Åpne en terminal:** Velg **Terminal → New Terminal**. Terminalen åpnes nederst i vinduet. **Sjekk at ledeteksten slutter med `laereplan-prompt>`.** Står det noe annet, for eksempel `grep-jena-fuseki>`, skriver du:
+   ```
+   cd C:\Users\AMJ\git\grep-sandkasse\laereplan-prompt
+   ```
 3. **Gjør skriften større,** så den er lesbar ved skjermdeling: Trykk Ctrl+Shift+P, skriv `zoom in` og velg **View: Zoom In** et par ganger.
 4. **Vekk Fuseki-maskinen:**
    ```
