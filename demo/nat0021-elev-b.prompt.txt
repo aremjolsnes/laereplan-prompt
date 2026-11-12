@@ -1,0 +1,388 @@
+=== SYSTEM ===
+
+Du hjelper en lærer med å forstå vurderingsdataene til én elev i lys av læreplanen.
+
+Læreplanutsnittet du får, er hentet fra Grep, Utdanningsdirektoratets database for læreplaner. Det inneholder læreplanen som gjaldt på vurderingsdatoen, kompetansemålene for trinnet, og hva Udir skriver om kjerneelementer, grunnleggende ferdigheter, verbene i målene og vurdering i faget.
+
+Slik skal du arbeide:
+- Bygg bare på kompetansemålene i utsnittet. Vis til dem med kode (for eksempel KM13328), slik at læreren kan sjekke.
+- Les verbene i målene slik Udir forklarer dem. Et mål som sier «utforske», krever noe annet enn et mål som sier «bruke».
+- Skill tydelig mellom det vurderingsdataene viser, og det du tolker eller antar.
+- Si fra når grunnlaget er tynt, og nevn kompetansemål som vurderingsdataene ikke sier noe om.
+- Ikke sett karakter, og ikke trekk slutninger om eleven som person. Standpunkt fastsetter læreren etter vurderingsordningen i faget.
+- Skriv på bokmål, kort og konkret.
+
+=== BRUKER ===
+
+<laereplanutsnitt>
+# Læreplanutsnitt: Naturfag 10. årstrinn (NAT0021)
+
+- Læreplan: Læreplan i naturfag (NAT01-05), gyldig fra 2026-08-01
+- Kompetansemålsett: Kompetansemål og vurdering 10. trinn (KV1078)
+- Kilde: Grep (Utdanningsdirektoratet), via Grep-sandkassen
+
+## Fagets relevans og sentrale verdier
+
+Naturfag er et sentralt fag for å beskrive og forstå hvordan vår fysiske verden er bygget opp. Faget skal bidra til at elevene får naturopplevelser og et faglig grunnlag for å verne om naturressurser, bevare biologisk mangfold og bidra til en bærekraftig utvikling. Naturfag skal også bidra til at elevene utvikler kompetanse til å ivareta egen og andres helse. Når elevene tar i bruk naturfaglig språk og naturfaglige metoder, praksiser og tenkemåter i arbeid med faglige emner, vil de få grunnlag for å forstå hvordan naturfaglig kunnskap brukes og utvikles. Kunnskap om samspillet mellom natur, individ, teknologi og samfunn kan fremme elevenes evne til kritisk tenkning og bidra til at de tar bevisste valg i hverdagen. Naturfag skal forberede elevene på et arbeids- og samfunnsliv som vil stille krav til en utforskende tilnærming og teknologisk kompetanse.
+
+## Kjerneelementer
+
+### Naturvitenskapelige praksiser og tenkemåter (KE1802)
+
+Elevene skal oppleve naturfag som et praktisk og utforskende fag. Elevene skal gjennom opplevelse, undring, utforsking og erfaring forstå verden omkring seg i et naturvitenskapelig perspektiv. Ved å arbeide praktisk og ved å lage egne modeller for å løse faglige utfordringer, kan elevene utvikle skaperglede, evne til nytenking og forståelse av naturfaglig teori. Naturvitenskapene har et spesielt språk og fagspesifikke måter å tenke på for å forklare fenomener og hendelser. Kjerneelementet beskriver fagets uttrykksformer, metoder og tenkemåter. Arbeid med kjerneelementet naturvitenskapelige praksiser og tenkemåter skal kombineres med arbeid knyttet til de andre kjerneelementene.
+
+### Teknologi (KE1803)
+
+Elevene skal forstå, skape og bruke teknologi, inkludert programmering og modellering, i arbeid med naturfag. Gjennom å bruke og skape teknologi kan elevene kombinere erfaring og faglig kunnskap med å tenke kreativt og nyskapende. Elevene skal forstå teknologiske prinsipper og virkemåter. De skal vurdere hvordan teknologi kan bidra til løsninger, men også skape nye utfordringer. Kunnskap om og kompetanse innenfor teknologi er derfor viktig i et bærekraftsperspektiv. Arbeid med kjerneelementet teknologi skal kombineres med arbeid knyttet til de andre kjerneelementene.
+
+### Energi og materie (KE1804)
+
+Elevene skal forstå hvordan vi bruker sentrale teorier, lover og modeller for, og begreper om, energi, stoffer og partikler for å forklare vår fysiske verden. Ved å bruke kunnskap om energi og materie skal elevene forstå naturfenomener og se sammenhenger i naturfaget.
+
+### Jorda og livet på jorda (KE1805)
+
+Elevene skal gjennom naturfaget øke sin forståelse av naturen og miljøet. Elevene skal få en grunnleggende forståelse av hvordan jorda er dannet, og hvordan livet på jorda har utviklet seg. Kunnskap om jorda som system og hvordan menneskene påvirker dette systemet, skal gi elevene grunnlag til å ta bærekraftige valg.
+
+### Kropp og helse (KE1806)
+
+Elevene skal forstå hvordan kroppens store og små systemer virker sammen. De skal også forstå hvordan kroppen utvikler seg, og hvordan fysisk og psykisk helse kan ivaretas. Kunnskap om kroppens systemer og hvordan de påvirker hverandre, skal hjelpe elevene til å ta vare på egen kropp og helse i et livslangt perspektiv.
+
+
+## Grunnleggende ferdigheter i faget
+
+### Muntlige ferdigheter
+
+Muntlige ferdigheter i naturfag er å kunne delta i fagsamtaler og dele og utvikle kunnskap med naturfaglig innhold basert på observasjoner, erfaringer og faglig informasjon. Muntlige ferdigheter i naturfag innebærer også å bruke naturfaglige begreper for å beskrive, vise forståelse, formidle kunnskap, utvikle spørsmål, argumentere, forklare, reflektere og begrunne egne holdninger og valg. Utviklingen av muntlige ferdigheter i naturfag går fra å kunne lytte og samtale om opplevelser og observasjoner til å kunne presentere og diskutere stadig mer komplekse sammenhenger i faget og å kunne benytte seg av et stadig mer presist naturfaglig språk.
+
+### Å kunne skrive
+
+Å kunne skrive i naturfag er å formulere spørsmål og hypoteser og skrive naturfaglige forklaringer basert på evidens og kilder. Det innebærer også å beskrive observasjoner og erfaringer og å formulere og argumentere for synspunkter. Utviklingen av skriveferdigheter i naturfag går fra å bruke tegninger og tekst til gradvis å ta i bruk mer presist naturfaglig språk, inkludert figurer og symboler. Dette innebærer å kunne skrive stadig mer komplekse tekster og benytte ulike teksttyper som bygger på kritisk og variert kildebruk tilpasset formål og mottaker.
+
+### Å kunne lese
+
+Å kunne lese i naturfag er å kunne forstå naturfaglige begreper, symboler, figurer og argumenter gjennom arbeid med naturfaglige tekster. Lesing i naturfag innebærer også å utforske, identifisere, tolke og bruke informasjon fra ulike teksttyper og vurdere kritisk hvordan naturvitenskapelig informasjon framstilles og brukes i argumenter. Utviklingen av å lese i naturfag går fra å finne og bruke informasjon i tekster til å forstå tekster med stadig flere fagbegreper, symboler, figurer, tabeller og implisitt informasjon.
+
+### Å kunne regne
+
+Å kunne regne i naturfag er å kunne innhente, bearbeide og framstille relevant tallmateriale. Regning i naturfag innebærer å bruke begreper og velge passende måleinstrumenter, måleenheter og formler for å løse naturfaglige problemstillinger. Regning i naturfag er også å kunne sammenligne, vurdere og argumentere for om beregninger, resultater og framstillinger er gyldige eller ikke. Utviklingen av å regne i naturfag går fra å bruke enkle metoder for å telle opp, sortere og klassifisere til å kunne vurdere valg av metoder, begreper, formler og måleinstrumenter. Elevene utvikler også regneferdigheter ved å lage mer avanserte framstillinger og ved å bruke regning i faglig argumentasjon.
+
+### Digitale ferdigheter
+
+Digitale ferdigheter i naturfag er å kunne bruke digitale verktøy til å utforske, registrere, beregne, visualisere, programmere, modellere, dokumentere og publisere data fra forsøk, feltarbeid og andres studier. Digitale ferdigheter er også å bruke søkeverktøy, beherske søkestrategier, kritisk vurdere kilder og velge ut relevant informasjon om naturfaglige emner. Utviklingen av digitale ferdigheter i naturfag går fra å kunne bruke enkle digitale verktøy til å i økende grad utvise selvstendighet og dømmekraft i valg og bruk av digitale verktøy og kilder. For elever på 1.-4. trinn skal bruken av digitale enheter være særskilt varsom, og ikke dominere undervisningen.
+
+
+## Tverrfaglige temaer i faget
+
+### Folkehelse og livsmestring
+
+I naturfag handler det tverrfaglige temaet folkehelse og livsmestring om å gi elevene kompetanse til å forstå sin egen kropp og ivareta sin egen fysiske og psykiske helse. Elevene skal kunne forholde seg kritisk til og bruke helserelatert informasjon til å ta gode og ansvarlige valg knyttet til helse, sikkerhet og miljø i både hverdags- og arbeidsliv.
+
+### Demokrati og medborgerskap
+
+I naturfag handler det tverrfaglige temaet demokrati og medborgerskap om at elevene skal få grunnlag for å skille mellom vitenskapelig basert kunnskap og kunnskap som ikke er basert på vitenskap. Naturfag skal samtidig bidra til åpenhet for den erfaringsbaserte og tradisjonelle kunnskapen som samer har om naturen. Kompetanse i naturfag gir grunnlag for å forstå og være kritisk til argumentasjonen i samfunnsdebatten, og er viktig for at elevene skal kunne være aktive medborgere og bidra til en teknologisk og bærekraftig utvikling.
+
+### Bærekraftig utvikling
+
+I naturfag handler det tverrfaglige temaet bærekraftig utvikling om at elevene skal få kompetanse til å gjøre miljøbevisste valg og handlinger, og se disse i sammenheng med lokale og globale miljø- og klimautfordringer. Kunnskap om sammenhenger i naturen er nødvendig for å forstå hvordan vi mennesker er med på å påvirke den. Naturfaglig kompetanse kan bidra til at vi finner løsninger for å begrense klimautfordringene, bevare biologisk mangfold og forvalte jordas naturressurser på en bærekraftig måte.
+
+
+## Kompetansemål og vurdering 10. trinn
+
+Mål for opplæringen er at eleven skal kunne
+
+### KM13854: stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere avhengige og uavhengige variabler og samle data for å finne svar
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Demokrati og medborgerskap
+- Bygger på mål fra tidligere trinn:
+  - KM13833: stille spørsmål og lage hypoteser om naturfaglige fenomener, identifisere variabler og samle data for å finne svar
+
+### KM13855: analysere og bruke innsamlede data til å lage forklaringer, drøfte forklaringene i lys av relevant teori og vurdere kvaliteten på egne og andres utforskinger
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter
+- Grunnleggende ferdigheter: Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Demokrati og medborgerskap
+- Verb: Drøfte, Bruke, Analysere, Vurdere
+- Bygger på mål fra tidligere trinn:
+  - KM13834: skille mellom observasjoner og slutninger, organisere data, bruke årsak-virkning-argumenter, trekke slutninger, vurdere feilkilder og presentere funn
+
+### KM13856: bruke og lage modeller for å forutsi eller beskrive naturfaglige prosesser og systemer og gjøre rede for modellenes styrker og begrensninger
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter
+- Grunnleggende ferdigheter: Digitale ferdigheter
+- Verb: Beskrive, Gjøre rede for, Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM13835: bruke og vurdere modeller som representerer fenomener man ikke kan observere direkte, og gjøre rede for hvorfor det brukes modeller i naturfag
+
+### KM13857: delta i risikovurderinger knyttet til forsøk og følge sikkerhetstiltakene
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne lese
+- Tverrfaglige temaer: Folkehelse og livsmestring
+- Bygger på mål fra tidligere trinn:
+  - KM13836: lese og forstå faremerking og reflektere over hensikten med disse
+- Forklaring av målet (didaktisk støtte fra Udir):
+
+  Risikovurderinger er knyttet til farer og problemer som kan oppstå og tiltak for å unngå at det går galt.
+
+### KM13858: gi eksempler på dagsaktuell forskning og drøfte hvordan ny kunnskap genereres gjennom samarbeid og kritisk tilnærming til eksisterende kunnskap
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese
+- Tverrfaglige temaer: Demokrati og medborgerskap
+- Verb: Drøfte
+- Bygger på mål fra tidligere trinn:
+  - KM13837: gi eksempler på hvordan naturvitenskapelig kunnskap er utviklet og utvikler seg
+
+### KM13859: utforske, forstå og lage teknologiske systemer som består av en sender og en mottaker
+
+- Kjerneelementer: Teknologi
+- Grunnleggende ferdigheter: Digitale ferdigheter
+- Verb: Utforske, Forstå
+- Bygger på mål fra tidligere trinn:
+  - KM13838: utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
+- Forklaring av målet (didaktisk støtte fra Udir):
+
+  Kompetansemålet er tenkt å kunne kobles til andre kompetansemål og programmering kan inngå i arbeidet med dette.
+
+### KM13860: bruke programmering til å utforske naturfaglige fenomener
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Teknologi
+- Grunnleggende ferdigheter: Å kunne regne; Digitale ferdigheter
+- Verb: Utforske, Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM13838: utforske, lage og programmere teknologiske systemer som består av deler som virker sammen
+  - KM13839: designe og lage et produkt basert på brukerbehov
+- Forklaring av målet (didaktisk støtte fra Udir):
+
+  Kompetansemålet er tenkt å kunne kobles til andre kompetansemål.
+
+### KM13861: utforske kjemiske reaksjoner, forklare massebevaring og gjøre rede for betydninger av noen forbrenningsreaksjoner
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Energi og materie
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Verb: Utforske, Gjøre rede for
+- Bygger på mål fra tidligere trinn:
+  - KM13841: utforske faseoverganger og kjemiske reaksjoner og beskrive hva som kjennetegner dem
+
+### KM13862: bruke atommodeller og periodesystemet til å gjøre rede for egenskaper til grunnstoffer og kjemiske forbindelser
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Energi og materie
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Verb: Gjøre rede for, Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM13841: utforske faseoverganger og kjemiske reaksjoner og beskrive hva som kjennetegner dem
+  - KM13852: bruke partikkelmodellen til å forklare faseoverganger og egenskapene til faste stoffer, væsker og gasser
+
+### KM13863: beskrive drivhuseffekten og gjøre rede for faktorer som kan forårsake globale klimaendringer
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Energi og materie
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Demokrati og medborgerskap; Bærekraftig utvikling
+- Verb: Beskrive, Gjøre rede for
+- Bygger på mål fra tidligere trinn:
+  - KM13847: gjøre rede for jordas forutsetninger for liv og sammenligne med andre himmellegemer i universet
+
+### KM13864: gjøre rede for energibevaring og energikvalitet og utforske ulike måter å omdanne, transportere og lagre energi på
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Teknologi; Energi og materie
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Bærekraftig utvikling
+- Verb: Utforske, Gjøre rede for
+- Bygger på mål fra tidligere trinn:
+  - KM13842: utforske elektriske og magnetiske krefter gjennom forsøk og samtale om hvordan vi utnytter elektrisk energi i dagliglivet
+
+### KM13865: drøfte hvordan energiproduksjon og energibruk kan påvirke miljøet lokalt og globalt
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Teknologi; Energi og materie
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive
+- Tverrfaglige temaer: Demokrati og medborgerskap; Bærekraftig utvikling
+- Verb: Drøfte
+- Bygger på mål fra tidligere trinn:
+  - KM13842: utforske elektriske og magnetiske krefter gjennom forsøk og samtale om hvordan vi utnytter elektrisk energi i dagliglivet
+
+### KM13866: beskrive hvordan forskere har kommet fram til evolusjonsteorien og bruke denne til å forklare utvikling av biologisk mangfold
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Jorda og livet på jorda
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Bærekraftig utvikling
+- Verb: Beskrive, Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM13843: gjøre rede for hvordan organismer kan deles inn i hovedgrupper, og gi eksempler på ulike organismers særtrekk
+
+### KM13867: sammenligne celler hos ulike organismer og beskrive sammenhenger mellom oppbygning og funksjon
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Jorda og livet på jorda
+- Verb: Sammenligne, Beskrive
+- Bygger på mål fra tidligere trinn:
+  - KM13843: gjøre rede for hvordan organismer kan deles inn i hovedgrupper, og gi eksempler på ulike organismers særtrekk
+
+### KM13868: utforske sammenhenger mellom abiotiske og biotiske faktorer i et økosystem og diskutere hvordan energi og materie omdannes i kretsløp
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Jorda og livet på jorda
+- Grunnleggende ferdigheter: Muntlige ferdigheter
+- Tverrfaglige temaer: Bærekraftig utvikling
+- Verb: Utforske
+- Bygger på mål fra tidligere trinn:
+  - KM13844: foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning
+- Forklaring av målet (didaktisk støtte fra Udir):
+
+  Materie er en fellesbetegnelse for stoffer og partiklene stoffer er satt sammen av. Alt stoff rundt oss, fra elementærpartikler, til molekyler, celler, mennesker, trær, fjell, planeter, stjerner og galakser består av materie.
+
+### KM13875: gi eksempler på og drøfte aktuelle dilemmaer knyttet til utnyttelse av naturressurser og tap av biologisk mangfold
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Jorda og livet på jorda
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese
+- Tverrfaglige temaer: Demokrati og medborgerskap; Bærekraftig utvikling
+- Verb: Drøfte
+- Bygger på mål fra tidligere trinn:
+  - KM13844: foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning
+
+### KM13869: gi eksempler på samers tradisjonelle kunnskap om naturen og diskutere hvordan denne kunnskapen kan bidra til bærekraftig forvaltning av naturen
+
+- Kjerneelementer: Jorda og livet på jorda
+- Grunnleggende ferdigheter: Muntlige ferdigheter
+- Tverrfaglige temaer: Bærekraftig utvikling
+- Bygger på mål fra tidligere trinn:
+  - KM13844: foreslå tiltak for å bevare det biologiske mangfoldet i nordområdene og gi eksempler på betydningen av tradisjonell kunnskap i naturforvaltning
+
+### KM13870: gjøre rede for hvordan fotosyntese og celleånding gir energi til alt levende gjennom karbonkretsløpet
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Energi og materie; Jorda og livet på jorda
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive
+- Tverrfaglige temaer: Bærekraftig utvikling
+- Verb: Gjøre rede for
+- Bygger på mål fra tidligere trinn:
+  - KM13845: utforske og beskrive ulike næringsnett og bruke dette til å diskutere samspill i naturen
+
+### KM13871: bruke platetektonikkteorien til å forklare jordas utvikling over tid og gi eksempler på observasjoner som støtter teorien
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Jorda og livet på jorda
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Verb: Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM13848: gjøre rede for hvordan det geologiske kretsløpet, platetektonikk og ytre krefter er med på å forme og endre ulike landskap
+
+### KM13872: drøfte spørsmål knyttet til seksuell og reproduktiv helse
+
+- Kjerneelementer: Kropp og helse
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive
+- Tverrfaglige temaer: Folkehelse og livsmestring
+- Verb: Drøfte
+- Bygger på mål fra tidligere trinn:
+  - KM13849: gjøre rede for fysiske og psykiske forandringer i puberteten og samtale om hvordan dette kan påvirke følelser, handlinger og seksualitet
+
+### KM13873: sammenligne nervesystemet og hormonsystemet og beskrive hvordan rusmidler, legemidler, miljøgifter og doping påvirker signalsystemene
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Kropp og helse
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Folkehelse og livsmestring
+- Verb: Sammenligne, Beskrive
+- Bygger på mål fra tidligere trinn:
+  - KM13850: gjøre rede for noen av kroppens organsystemer og beskrive hvordan systemene virker sammen
+
+### KM13874: beskrive kroppens immunforsvar og hvordan vaksiner virker, og gjøre rede for hva vaksiner betyr for folkehelsen
+
+- Kjerneelementer: Naturvitenskapelige praksiser og tenkemåter; Kropp og helse
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Folkehelse og livsmestring; Demokrati og medborgerskap
+- Verb: Beskrive, Gjøre rede for
+- Bygger på mål fra tidligere trinn:
+  - KM13850: gjøre rede for noen av kroppens organsystemer og beskrive hvordan systemene virker sammen
+
+
+## Verbene i kompetansemålene (Udirs forklaring)
+
+- **Analysere**: Å analysere er å undersøke en sak, en gjenstand eller et begrep for å få avdekket et budskap eller en mening. Å analysere kan bety grundig og systematisk behandling av enkeltelementer og sammenhengen mellom dem. Analysen kan også gjelde en arbeidsprosess.
+- **Beskrive**: Å beskrive er å skildre eller gjengi en opplevelse, situasjon, arbeidsprosess eller et faglig emne muntlig, skriftlig eller digitalt. Å beskrive noe kan også være å bruke relevante fagbegreper for å systematisere kunnskap om emnet.
+- **Bruke**: Å bruke vil si at vi gjør oss nytte av noe eller utfører en handling for å oppnå et mål. Å bruke henger nært sammen med å anvende, forstått som å gjøre bruk av, ta i bruk, for eksempel en metode eller et verktøy.
+- **Drøfte**: Å drøfte er å belyse en sak ved å trekke fram forskjellige sider av den, og argumentere både for og imot. Drøftingen kan avsluttes med en konklusjon. Å drøfte kan vi gjøre selvstendig og i dialog med andre. Ordskifte mellom flere om et saksforhold kan bety det samme som å diskutere.
+- **Forstå**: Å forstå er å oppfatte meningen med noe, skjønne hva som blir kommunisert eller hvordan noe henger sammen. Forståelse kan vises gjennom å forklare, drøfte ulike alternativer, sammenligne aktuelle metoder eller vurdere kvalitet.
+- **Gjøre rede for**: Å gjøre rede for noe er å gi en faglig begrunnet forklaring av et saksforhold, en problemstilling eller noe vi skal undersøke eller gjennomføre.
+- **Sammenligne**: Å sammenligne er å undersøke likheter og forskjeller mellom to eller flere forhold.
+- **Utforske**: Å utforske handler om å oppleve og eksperimentere og kan ivareta nysgjerrighet og undring. Å utforske kan bety å sanse, søke, oppdage, observere og granske. I noen tilfeller betyr det å teste ut eller evaluere arbeidsmetoder, produkter eller utstyr. I naturfag er det å stille spørsmål og bruke data for å lage forklaringer grunnleggende for å utforske.
+- **Vurdere**: Å vurdere er å overveie ulike sider ved et saksforhold eller synspunkt. Det kan også omfatte å bedømme kvaliteten ved et produkt eller en prosess. En vurdering resulterer ofte i en beslutning, en bedømmelse eller en konklusjon.
+
+## Vurdering
+
+### Underveisvurdering
+
+Underveisvurderingen skal bidra til å fremme læring og til å utvikle kompetanse i faget. Elevene viser og utvikler kompetanse på 8., 9. og 10. trinn når de bruker fagspråk, teorier og modeller for å beskrive, forklare og drøfte naturfaglige fenomener. De viser og utvikler også kompetanse når de utforsker, argumenterer, analyserer og reflekterer over naturfaglige emner og sammenhenger mellom dem, og vurderer egne funn og resultater. Videre viser og utvikler de kompetanse når de anvender fagets praksiser, og når de reflekterer over hvordan naturvitenskapelig kunnskap utvikles. Elevene viser også kompetanse når de bruker programmering og utforsker teknologi.
+Læreren skal legge til rette for elevmedvirkning og stimulere til lærelyst gjennom å legge til rette for varierte, praktiske og utforskende arbeidsmåter. Læreren og elevene skal være i dialog om elevenes utvikling i naturfag. Elevene skal få mulighet til å utforske og prøve seg fram. Med utgangspunkt i kompetansen elevene viser, skal de få mulighet til å sette ord på hva de opplever at de får til, og reflektere over egen faglig utvikling. Læreren skal gi veiledning om videre læring og tilpasse opplæringen slik at elevene kan bruke veiledningen for å utvikle kompetansen sin i naturfag.
+
+### Standpunktvurdering
+
+Standpunktkarakteren skal være uttrykk for den samlede kompetansen eleven har i naturfag ved avslutningen av opplæringen etter 10. trinn. Læreren skal planlegge og legge til rette for at elevene får vist kompetansen sin på varierte måter som inkluderer forståelse, refleksjon og kritisk tenkning, i ulike sammenhenger. Læreren skal sette karakter i naturfag basert på kompetansen eleven har vist når eleven har kommunisert kunnskap om og forståelse av fagets innhold og sammenhenger. Karakteren skal også være basert på kompetansen eleven har vist når eleven har arbeidet praktisk og utforskende med faget.
+
+### Vurderingsordning: standpunkt
+
+10. trinn: Eleven skal ha én standpunktkarakter.
+Vg1 yrkesfaglige utdanningsprogram: Eleven skal ha én standpunktkarakter.
+Vg1 studieforberedende utdanningsprogram: Eleven skal ha én standpunktkarakter.
+Vg3 påbygging til generell studiekompetanse: Eleven skal ha én standpunktkarakter.
+
+### Vurderingsordning: eksamen for elever
+
+10. trinn: Eleven kan trekkes ut til muntlig-praktisk eksamen med forberedelsesdel. Eksamen blir utarbeidet og sensurert lokalt.
+Vg1 yrkesfaglige utdanningsprogram: Eleven kan trekkes ut til muntlig-praktisk eksamen med forberedelsesdel. Eksamen blir utarbeidet og sensurert lokalt.
+Vg1 studieforberedende utdanningsprogram: Eleven kan trekkes ut til muntlig-praktisk eksamen med forberedelsesdel. Eksamen blir utarbeidet og sensurert lokalt.
+Vg3 påbygging til generell studiekompetanse: Eleven kan trekkes ut til muntlig-praktisk eksamen med forberedelsesdel. Eksamen blir utarbeidet og sensurert lokalt.
+</laereplanutsnitt>
+
+<vurderingsdata>
+{
+  "merknad": "Oppdiktede data til demonstrasjon. Ingen ekte elev.",
+  "elev": "Elev B",
+  "trinn": "10. trinn",
+  "fagkode": "NAT0021",
+  "vurderingsdato": "2026-11-01",
+  "vurderinger": [
+    {
+      "dato": "2026-09-02",
+      "type": "forsøksrapport",
+      "kompetansemaal": [
+        "KM13854",
+        "KM13855"
+      ],
+      "resultat": "middels måloppnåelse",
+      "kommentar": "Forsøk med hvor fort sukker løses i vann ved ulik temperatur. Formulerte en tydelig hypotese og målte nøyaktig. Blander avhengig og uavhengig variabel i rapporten, og skriver «forsøket gikk bra» i stedet for å drøfte feilkilder."
+    },
+    {
+      "dato": "2026-09-23",
+      "type": "praktisk prosjekt",
+      "kompetansemaal": [
+        "KM13859",
+        "KM13860"
+      ],
+      "resultat": "høy måloppnåelse",
+      "kommentar": "Laget et alarmsystem med to micro:bit-er som sender og mottaker over radio. Programmerte selv og forklarte hvordan signalet blir kodet og tolket. Hjalp andre grupper."
+    },
+    {
+      "dato": "2026-10-08",
+      "type": "muntlig presentasjon",
+      "kompetansemaal": [
+        "KM13863"
+      ],
+      "resultat": "middels måloppnåelse",
+      "kommentar": "Beskriver drivhuseffekten riktig med figur. Nevner CO2 som årsak, men ikke andre faktorer, og blander drivhuseffekten med ozonlaget ved oppfølgingsspørsmål."
+    },
+    {
+      "dato": "2026-10-29",
+      "type": "skriftlig prøve",
+      "kompetansemaal": [
+        "KM13867"
+      ],
+      "resultat": "14 av 20 poeng",
+      "kommentar": "Sammenligner plante- og dyreceller sikkert. Svarer kort på oppgaven om hvorfor rotceller ikke har kloroplaster."
+    }
+  ]
+}
+</vurderingsdata>
+
+Gå gjennom vurderingsdataene opp mot kompetansemålene i læreplanutsnittet, og svar med disse delene:
+
+1. **Hva dataene viser:** For hvert kompetansemål som dataene sier noe om: hva eleven ser ut til å mestre, og hva som er usikkert. Vis til kode og til konkrete vurderinger.
+2. **Hull i grunnlaget:** Kompetansemål som dataene ikke sier noe om, eller bare sier lite om.
+3. **Neste steg:** To til fire konkrete forslag til underveisvurdering eller opplæring. Ta med hvilke mål fra tidligere trinn det kan være lurt å gå tilbake til (der utsnittet har «Bygger på»).
+4. **Forbehold:** Hva læreren bør sjekke selv før hun eller han bruker dette.

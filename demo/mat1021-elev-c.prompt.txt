@@ -1,0 +1,297 @@
+=== SYSTEM ===
+
+Du hjelper en lærer med å forstå vurderingsdataene til én elev i lys av læreplanen.
+
+Læreplanutsnittet du får, er hentet fra Grep, Utdanningsdirektoratets database for læreplaner. Det inneholder læreplanen som gjaldt på vurderingsdatoen, kompetansemålene for trinnet, og hva Udir skriver om kjerneelementer, grunnleggende ferdigheter, verbene i målene og vurdering i faget.
+
+Slik skal du arbeide:
+- Bygg bare på kompetansemålene i utsnittet. Vis til dem med kode (for eksempel KM13328), slik at læreren kan sjekke.
+- Les verbene i målene slik Udir forklarer dem. Et mål som sier «utforske», krever noe annet enn et mål som sier «bruke».
+- Skill tydelig mellom det vurderingsdataene viser, og det du tolker eller antar.
+- Si fra når grunnlaget er tynt, og nevn kompetansemål som vurderingsdataene ikke sier noe om.
+- Ikke sett karakter, og ikke trekk slutninger om eleven som person. Standpunkt fastsetter læreren etter vurderingsordningen i faget.
+- Skriv på bokmål, kort og konkret.
+
+=== BRUKER ===
+
+<laereplanutsnitt>
+# Læreplanutsnitt: Matematikk 1T (MAT1021)
+
+- Læreplan: Læreplan i matematikk fellesfag vg1 teoretisk (matematikk T) (MAT09-02), gyldig fra 2026-08-01
+- Kompetansemålsett: Kompetansemål og vurdering (KV979)
+- Kilde: Grep (Utdanningsdirektoratet), via Grep-sandkassen
+
+## Fagets relevans og sentrale verdier
+
+Matematikk T er et sentralt fag for å tilegne seg verktøy for å kunne forstå matematiske sammenhenger. Faget skal gi elevene mulighet til å utvikle problemløsingsstrategier som forbereder dem til videre arbeid i andre fag som krever matematikk. Matematikk T skal forberede elevene på en utdanning og et arbeidsliv som stiller krav om matematisk forståelse, gjennom teoretisk bruk av matematikk.
+
+## Kjerneelementer
+
+### Utforsking og problemløsing (KE1688)
+
+Utforsking i matematikk T handler om at elevene leter etter mønstre, finner sammenhenger og diskuterer seg fram til en felles forståelse. Elevene skal legge mer vekt på strategiene og framgangsmåtene enn på løsningene. Problemløsing i matematikk T handler om at elevene utvikler en metode for å løse et problem de ikke kjenner fra før. Algoritmisk tenkning er viktig i prosessen med å utvikle strategier og framgangsmåter for å løse problemer og innebærer å bryte ned et problem i delproblemer som kan løses systematisk. Videre innebærer det å vurdere om delproblemene best kan løses med eller uten digitale verktøy. Problemløsing handler også om å analysere og omforme kjente og ukjente problemer, løse dem og vurdere om løsningene er gyldige.
+
+### Modellering og anvendelser (KE1689)
+
+En modell i matematikk T er en beskrivelse av virkeligheten i matematisk språk. Elevene skal ha innsikt i hvordan modeller i matematikk brukes for å beskrive fenomener fra dagliglivet, arbeidslivet og samfunnet ellers. Modellering i matematikk T handler om å lage slike modeller. Det handler også om å kritisk vurdere om modellene er gyldige, og hvilke begrensninger de har, vurdere modellene i lys av de opprinnelige situasjonene og vurdere om de kan brukes i andre situasjoner. Anvendelser i matematikk T handler om at elevene skal få innsikt i hvordan de skal bruke matematikk i ulike situasjoner, både i og utenfor faget.
+
+### Resonnering og argumentasjon (KE1690)
+
+Resonnering i matematikk T handler om å kunne følge, vurdere og forstå matematiske tankerekker. Det innebærer at elevene skal forstå at matematiske regler og resultater ikke er tilfeldige, men har klare begrunnelser. Elevene skal utforme egne resonnementer både for å forstå og for å løse problemer. Argumentasjon i matematikk T handler om at elevene begrunner framgangsmåter, resonnementer og løsninger og beviser at disse er gyldige.
+
+### Representasjon og kommunikasjon (KE1691)
+
+Representasjoner i matematikk T er måter å uttrykke matematiske begreper, sammenhenger og problemer på. Representasjoner kan være konkrete, kontekstuelle, visuelle, verbale og symbolske. Kommunikasjon i matematikk T handler om at elevene bruker matematisk språk i samtaler, argumentasjon og resonnementer. Elevene må få mulighet til å bruke matematiske representasjoner i ulike sammenhenger gjennom egne erfaringer og matematiske samtaler. Elevene må få mulighet til å forklare og begrunne valg av representasjonsform. Elevene må kunne oversette mellom matematiske representasjoner og dagligspråket og veksle mellom ulike representasjoner.
+
+### Abstraksjon og generalisering (KE1692)
+
+Abstraksjon i matematikk T handler om å bruke et formelt symbolspråk og formelle resonnementer. Generalisering i matematikk T handler om at elevene oppdager sammenhenger og strukturer og ikke blir presentert for en ferdig løsning. Elevene må få mulighet til å utforske begreper og symboler for å kunne uttrykke resultater og sammenhenger ved bruk av algebra og hensiktsmessige representasjoner.
+
+### Matematiske kunnskapsområder (KE1693)
+
+Kunnskapsområdene i matematikk T er knyttet til matematisk teori. Kunnskapsområdene danner grunnlaget som elevene trenger for å utvikle matematisk forståelse ved å utforske sammenhenger innenfor og mellom kunnskapsområdene.
+
+
+## Grunnleggende ferdigheter i faget
+
+### Muntlige ferdigheter
+
+Muntlige ferdigheter i matematikk T innebærer å skape mening gjennom å samtale i og om matematikk. Det vil si å kommunisere ideer og drøfte matematiske problemer, strategier og løsninger med andre. Det handler også om å beskrive og diskutere abstrakte matematiske begreper.
+
+### Å kunne skrive
+
+Å kunne skrive i matematikk T innebærer å beskrive og forklare sammenhenger, oppdagelser og ideer ved hjelp av hensiktsmessige representasjoner. Å kunne skrive i matematikk T er et redskap for å utvikle egne tanker og egen læring. Det innebærer å kunne løse problemer med et presist matematisk språk.
+
+### Å kunne lese
+
+Å kunne lese i matematikk T innebærer å skape mening både i tekster fra samfunnet og arbeidslivet og i matematiske tekster. Å kunne lese i matematikk T vil si å sortere informasjon, analysere og vurdere form og innhold og sammenfatte informasjon i sammensatte tekster.
+
+### Å kunne regne
+
+Å kunne regne i matematikk T vil si å bruke matematiske representasjoner, begreper og framgangsmåter til å gjøre utregninger og vurdere om løsninger er gyldige. Det innebærer å kjenne igjen problemer som kan løses med matematikk, og formulere spørsmål om disse. Matematikk har et særlig ansvar for opplæringen i å kunne regne.
+
+### Digitale ferdigheter
+
+Digitale ferdigheter i matematikk T innebærer å kunne bruke graftegner, regneark, CAS, dynamisk geometriprogram og programmering til å utforske og løse matematiske problemer. Videre innebærer det å finne, analysere, behandle og presentere informasjon ved hjelp av digitale verktøy.
+
+
+## Tverrfaglige temaer i faget
+
+### Demokrati og medborgerskap
+
+I matematikk T handler det tverrfaglige temaet demokrati og medborgerskap om å gi elevene mulighet til å utforske, modellere og analysere store data og tallmaterialer knyttet til samfunnsliv.
+
+
+## Kompetansemål og vurdering
+
+Mål for opplæringen er at eleven skal kunne
+
+### KM12756: formulere og løse problemer ved hjelp av algoritmisk tenkning, ulike problemløsingsstrategier, digitale verktøy og programmering
+
+- Kjerneelementer: Utforsking og problemløsing; Representasjon og kommunikasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Digitale ferdigheter
+- Bygger på mål fra tidligere trinn:
+  - KM224: lage, løse og forklare ligningssett knyttet til praktiske situasjoner
+  - KM229: utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
+
+### KM12764: lese og forstå matematiske bevis og utforske og utvikle bevis i relevante matematiske emner
+
+- Kjerneelementer: Utforsking og problemløsing; Representasjon og kommunikasjon; Abstraksjon og generalisering
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese
+- Verb: Forstå, Utforske, Utvikle
+- Bygger på mål fra tidligere trinn:
+  - KM231: utforske og generalisere multiplikasjon av polynomer algebraisk og geometrisk
+  - KM238: utforske og argumentere for hvordan det å endre forutsetninger i geometriske problemstillinger påvirker løsninger
+  - KM240: utforske, beskrive og argumentere for sammenhenger mellom sidelengdene i trekanter
+
+### KM12762: identifisere variable størrelser i ulike situasjoner, sette opp formler og utforske disse ved hjelp av digitale verktøy
+
+- Kjerneelementer: Utforsking og problemløsing; Representasjon og kommunikasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Digitale ferdigheter
+- Verb: Utforske
+- Bygger på mål fra tidligere trinn:
+  - KM223: bruke funksjoner i modellering og argumentere for framgangsmåter og resultater
+  - KM224: lage, løse og forklare ligningssett knyttet til praktiske situasjoner
+  - KM226: utforske sammenhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjoner
+  - KM228: regne ut stigningstallet til en lineær funksjon og bruke det til å forklare begrepene endring per enhet og gjennomsnittsfart
+  - KM229: utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
+
+### KM12755: utforske strategier for å løse ligninger, ligningssystemer og ulikheter og argumentere for tenkemåtene sine
+
+- Kjerneelementer: Utforsking og problemløsing; Resonnering og argumentasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne regne
+- Verb: Utforske
+- Bygger på mål fra tidligere trinn:
+  - KM224: lage, løse og forklare ligningssett knyttet til praktiske situasjoner
+
+### KM12763: forklare forskjellen mellom en identitet, en ligning, et algebraisk uttrykk og en funksjon
+
+- Kjerneelementer: Representasjon og kommunikasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter
+- Bygger på mål fra tidligere trinn:
+  - KM224: lage, løse og forklare ligningssett knyttet til praktiske situasjoner
+  - KM229: utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
+
+### KM12759: utforske sammenhenger mellom andregradsligninger og andregradsulikheter, andregradsfunksjoner og kvadratsetningene og bruke sammenhengene i problemløsing
+
+- Kjerneelementer: Utforsking og problemløsing; Abstraksjon og generalisering
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Digitale ferdigheter
+- Verb: Bruke, Utforske
+- Bygger på mål fra tidligere trinn:
+  - KM224: lage, løse og forklare ligningssett knyttet til praktiske situasjoner
+  - KM229: utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
+  - KM231: utforske og generalisere multiplikasjon av polynomer algebraisk og geometrisk
+
+### KM12757: modellere situasjoner knyttet til ulike temaer, drøfte, presentere og forklare resultatene og argumentere for om modellene er gyldige
+
+- Kjerneelementer: Modellering og anvendelser; Resonnering og argumentasjon; Representasjon og kommunikasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Digitale ferdigheter
+- Tverrfaglige temaer: Demokrati og medborgerskap
+- Verb: Drøfte, Presentere
+- Bygger på mål fra tidligere trinn:
+  - KM223: bruke funksjoner i modellering og argumentere for framgangsmåter og resultater
+  - KM225: modellere situasjoner knyttet til reelle datasett, presentere resultatene og argumentere for at modellene er gyldige
+
+### KM12760: lese, hente ut og vurdere matematikk i relevante tekster om ulike temaer og presentere relevante beregninger og analyser av resultatene
+
+- Kjerneelementer: Representasjon og kommunikasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne lese; Å kunne regne; Digitale ferdigheter
+- Tverrfaglige temaer: Demokrati og medborgerskap
+- Verb: Presentere, Vurdere
+- Bygger på mål fra tidligere trinn:
+  - KM227: hente ut og tolke relevant informasjon fra tekster om kjøp og salg og ulike typer lån og bruke det til å formulere og løse problemer
+
+### KM12768: utforske og beskrive egenskapene ved polynomfunksjoner, rasjonale funksjoner, eksponentialfunksjoner og potensfunksjoner
+
+- Kjerneelementer: Utforsking og problemløsing
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne lese; Digitale ferdigheter
+- Verb: Beskrive, Utforske
+- Bygger på mål fra tidligere trinn:
+  - KM226: utforske sammenhengen mellom konstant prosentvis endring, vekstfaktor og eksponentialfunksjoner
+  - KM229: utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
+
+### KM12758: bruke gjennomsnittlig og momentan vekstfart i konkrete eksempler og gjøre rede for den deriverte
+
+- Kjerneelementer: Modellering og anvendelser; Representasjon og kommunikasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne regne; Digitale ferdigheter
+- Verb: Gjøre rede for, Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM228: regne ut stigningstallet til en lineær funksjon og bruke det til å forklare begrepene endring per enhet og gjennomsnittsfart
+
+### KM12761: forklare polynomdivisjon og bruke det til å omskrive algebraiske uttrykk, drøfte funksjoner og løse ligninger og ulikheter
+
+- Kjerneelementer: Representasjon og kommunikasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne regne
+- Verb: Drøfte, Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM224: lage, løse og forklare ligningssett knyttet til praktiske situasjoner
+  - KM229: utforske og sammenligne egenskaper ved ulike funksjoner ved å bruke digitale verktøy
+
+### KM12765: gjøre rede for definisjonene av sinus, cosinus og tangens og bruke trigonometri til å beregne lengder, vinkler og arealer i vilkårlige trekanter
+
+- Kjerneelementer: Modellering og anvendelser
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive; Å kunne regne
+- Verb: Gjøre rede for, Bruke
+- Bygger på mål fra tidligere trinn:
+  - KM240: utforske, beskrive og argumentere for sammenhenger mellom sidelengdene i trekanter
+
+### KM12766: begrunne sinus-, cosinus- og arealsetningen
+
+- Kjerneelementer: Resonnering og argumentasjon
+- Grunnleggende ferdigheter: Muntlige ferdigheter; Å kunne skrive
+
+### KM12767: bruke trigonometri til å analysere og løse sammensatte teoretiske og praktiske problemer med lengder, vinkler og arealer
+
+- Kjerneelementer: Modellering og anvendelser
+- Grunnleggende ferdigheter: Å kunne lese; Å kunne regne
+- Verb: Bruke, Analysere
+
+
+## Verbene i kompetansemålene (Udirs forklaring)
+
+- **Analysere**: Å analysere er å undersøke en sak, en gjenstand eller et begrep for å få avdekket et budskap eller en mening. Å analysere kan bety grundig og systematisk behandling av enkeltelementer og sammenhengen mellom dem. Analysen kan også gjelde en arbeidsprosess.
+- **Beskrive**: Å beskrive er å skildre eller gjengi en opplevelse, situasjon, arbeidsprosess eller et faglig emne. Å beskrive noe kan også være å bruke relevante fagbegreper for å systematisere kunnskap om emnet.
+- **Bruke**: Å bruke vil si at vi gjør oss nytte av noe eller utfører en handling for å oppnå et mål. Å bruke henger nært sammen med å anvende, forstått som å gjøre bruk av, ta i bruk, for eksempel en metode eller et verktøy.
+- **Drøfte**: Å drøfte er å belyse en sak ved å trekke fram forskjellige sider av den, og argumentere både for og imot. Drøftingen kan avsluttes med en konklusjon. Å drøfte kan vi gjøre selvstendig og i dialog med andre. Ordskifte mellom flere om et saksforhold kan bety det samme som å diskutere.
+- **Forstå**: Å forstå er å oppfatte meningen med noe, skjønne hva som blir kommunisert eller hvordan noe henger sammen. Forståelse kan vises gjennom å forklare, drøfte ulike alternativer, sammenligne aktuelle metoder eller vurdere kvalitet.
+- **Gjøre rede for**: Å gjøre rede for noe er å gi en faglig begrunnet forklaring av et saksforhold, en problemstilling eller noe vi skal undersøke eller gjennomføre.
+- **Presentere**: Å presentere er å vise, forklare og legge frem et faglig emne eller et produkt. Måten å presentere på kan variere, men målet med en presentasjon er å gjøre emnet eller produktet tilgjengelig for andre. Presentere kan også bety å illustrere og å demonstrere.
+- **Utforske**: Å utforske handler om å oppleve og eksperimentere og kan ivareta nysgjerrighet og undring. Å utforske kan bety å sanse, søke, oppdage, observere og granske. I noen tilfeller betyr det å undersøke ulike sider av en sak gjennom åpen og kritisk drøfting. Å utforske kan også bety å teste eller prøve ut og evaluere arbeidsmetoder, produkter eller utstyr.
+- **Utvikle**: Å utvikle kan være å designe, skape, modellere eller utforme nye metoder, et produkt eller en tjeneste.
+- **Vurdere**: Å vurdere er å overveie ulike sider ved et saksforhold eller synspunkt. Det kan også omfatte å bedømme kvaliteten ved et produkt eller en prosess. En vurdering resulterer ofte i en beslutning, en bedømmelse eller en konklusjon.
+
+## Vurdering
+
+### Underveisvurdering
+
+Underveisvurderingen skal bidra til å fremme læring og til å utvikle kompetanse i matematikk 1T. Elevene viser og utvikler kompetanse i faget når de finner, forstår og generaliserer matematiske sammenhenger. Elevene viser og utvikler kompetanse når de jobber utforskende, problemløsende og med modellering ved å planlegge, utføre og presentere arbeid i faget. Elevene viser og utvikler også kompetanse ved å utforske fagbegreper, bruke matematiske metoder og resonnere matematisk. Læreren skal legge til rette for elevmedvirkning og stimulere til lærelyst ved at elevene får utforske matematikk og løse matematiske problemer gjennom å resonnere, argumentere og modellere. Læreren og elevene skal være i dialog om elevenes utvikling i programmering og strategier for å løse problemer. Elevene skal få mulighet til å prøve og feile. Med utgangspunkt i kompetansen elevene viser, skal de få mulighet til å sette ord på hva de opplever at de får til, og reflektere over sin egen faglige utvikling. Læreren skal gi veiledning om videre læring og tilpasse opplæringen slik at elevene kan bruke veiledningen for å utvikle kompetansen sin i å se sammenhenger mellom matematikk og teoretiske anvendelser.
+
+### Standpunktvurdering
+
+Standpunktkarakteren skal være uttrykk for den samlede kompetansen eleven har i matematikk ved avslutningen av opplæringen etter matematikk 1T. Læreren skal planlegge og legge til rette for at elevene får vist kompetansen sin på varierte måter som inkluderer forståelse, refleksjon og kritisk tenkning, i ulike sammenhenger. Læreren skal sette karakter i matematikk basert på kompetansen eleven har vist, både skriftlig, muntlig og digitalt, ved å bruke matematiske uttrykksformer, bruke problemløsingsstrategier og reflektere over og argumentere for løsninger og modeller.
+
+### Vurderingsordning: standpunkt
+
+Matematikk 1T: Eleven skal ha én standpunktkarakter.
+
+### Vurderingsordning: eksamen for elever
+
+Matematikk 1T: Eleven kan trekkes ut til skriftlig eksamen. Skriftlig eksamen blir utarbeidet og sensurert sentralt. Eleven kan også trekkes ut til muntlig-praktisk eksamen med forberedelsesdel. Muntlig-praktisk eksamen blir utarbeidet og sensurert lokalt.
+</laereplanutsnitt>
+
+<vurderingsdata>
+{
+  "merknad": "Oppdiktede data til demonstrasjon. Ingen ekte elev.",
+  "elev": "Elev C",
+  "trinn": "Vg1 studieforberedende",
+  "fagkode": "MAT1021",
+  "vurderingsdato": "2026-11-01",
+  "vurderinger": [
+    {
+      "dato": "2026-09-10",
+      "type": "skriftlig prøve",
+      "kompetansemaal": [
+        "KM12755",
+        "KM12763"
+      ],
+      "resultat": "5",
+      "kommentar": "Løser ligningssystemer sikkert både grafisk og ved regning. Forklarer godt forskjellen på en ligning og en funksjon, men kaller (a + b)² = a² + 2ab + b² for en ligning."
+    },
+    {
+      "dato": "2026-09-30",
+      "type": "skriftlig prøve",
+      "kompetansemaal": [
+        "KM12759"
+      ],
+      "resultat": "3",
+      "kommentar": "Bruker abc-formelen riktig. Faktoriserer ikke andregradsuttrykk med kvadratsetningene og ser ikke sammenhengen mellom nullpunktene og faktoriseringen."
+    },
+    {
+      "dato": "2026-10-14",
+      "type": "innlevering med GeoGebra",
+      "kompetansemaal": [
+        "KM12758",
+        "KM12768"
+      ],
+      "resultat": "5",
+      "kommentar": "Finner gjennomsnittlig vekstfart fra tabell og graf og tolker den i sammenhengen (temperatur per time). Forklarer momentan vekstfart som stigningstallet til tangenten, men har ikke definisjonen av den deriverte."
+    },
+    {
+      "dato": "2026-10-27",
+      "type": "muntlig samtale",
+      "kompetansemaal": [
+        "KM12764"
+      ],
+      "resultat": null,
+      "kommentar": "Fulgte et bevis for at summen av to oddetall er et partall, og forklarte hvert steg. Klarte ikke å komme i gang med å bevise en liknende påstand selv."
+    }
+  ]
+}
+</vurderingsdata>
+
+Gå gjennom vurderingsdataene opp mot kompetansemålene i læreplanutsnittet, og svar med disse delene:
+
+1. **Hva dataene viser:** For hvert kompetansemål som dataene sier noe om: hva eleven ser ut til å mestre, og hva som er usikkert. Vis til kode og til konkrete vurderinger.
+2. **Hull i grunnlaget:** Kompetansemål som dataene ikke sier noe om, eller bare sier lite om.
+3. **Neste steg:** To til fire konkrete forslag til underveisvurdering eller opplæring. Ta med hvilke mål fra tidligere trinn det kan være lurt å gå tilbake til (der utsnittet har «Bygger på»).
+4. **Forbehold:** Hva læreren bør sjekke selv før hun eller han bruker dette.

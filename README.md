@@ -55,7 +55,9 @@ Datoen er vurderingsdatoen i vurderingsfila hvis den finnes, ellers dagens dato.
 | `lag_prompt.py` | Henter utsnittet, gjør grafen om til Markdown, bygger prompten, sender den eventuelt til Claude |
 | `maler/system.md` | Systemprompten: rollen og reglene modellen skal følge |
 | `maler/oppgave.md` | Brukerprompten, med plass til `{utsnitt}` og `{vurdering}` |
-| `eksempler/*.json` | Oppdiktede vurderingsdata |
+| `eksempler/*.json` | Oppdiktede vurderingsdata: matematikk 10. trinn, naturfag 10. trinn og matematikk 1T |
+| `demo/` | Ferdige prompter (og svar) som reserve under demo |
+| `docs/demomanus.md` | Manus for en demo på ca. 30 minutter |
 
 ## Vurderingsdata
 

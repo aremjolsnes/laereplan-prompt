@@ -1,0 +1,37 @@
+{
+  "merknad": "Oppdiktede data til demonstrasjon. Ingen ekte elev.",
+  "elev": "Elev C",
+  "trinn": "Vg1 studieforberedende",
+  "fagkode": "MAT1021",
+  "vurderingsdato": "2026-11-01",
+  "vurderinger": [
+    {
+      "dato": "2026-09-10",
+      "type": "skriftlig prøve",
+      "kompetansemaal": ["KM12755", "KM12763"],
+      "resultat": "5",
+      "kommentar": "Løser ligningssystemer sikkert både grafisk og ved regning. Forklarer godt forskjellen på en ligning og en funksjon, men kaller (a + b)² = a² + 2ab + b² for en ligning."
+    },
+    {
+      "dato": "2026-09-30",
+      "type": "skriftlig prøve",
+      "kompetansemaal": ["KM12759"],
+      "resultat": "3",
+      "kommentar": "Bruker abc-formelen riktig. Faktoriserer ikke andregradsuttrykk med kvadratsetningene og ser ikke sammenhengen mellom nullpunktene og faktoriseringen."
+    },
+    {
+      "dato": "2026-10-14",
+      "type": "innlevering med GeoGebra",
+      "kompetansemaal": ["KM12758", "KM12768"],
+      "resultat": "5",
+      "kommentar": "Finner gjennomsnittlig vekstfart fra tabell og graf og tolker den i sammenhengen (temperatur per time). Forklarer momentan vekstfart som stigningstallet til tangenten, men har ikke definisjonen av den deriverte."
+    },
+    {
+      "dato": "2026-10-27",
+      "type": "muntlig samtale",
+      "kompetansemaal": ["KM12764"],
+      "resultat": null,
+      "kommentar": "Fulgte et bevis for at summen av to oddetall er et partall, og forklarte hvert steg. Klarte ikke å komme i gang med å bevise en liknende påstand selv."
+    }
+  ]
+}
