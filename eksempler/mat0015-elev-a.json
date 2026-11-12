@@ -1,0 +1,44 @@
+{
+  "merknad": "Oppdiktede data til demonstrasjon. Ingen ekte elev.",
+  "elev": "Elev A",
+  "trinn": "10. trinn",
+  "fagkode": "MAT0015",
+  "vurderingsdato": "2026-11-01",
+  "vurderinger": [
+    {
+      "dato": "2026-09-05",
+      "type": "skriftlig prøve",
+      "kompetansemaal": ["KM13328", "KM13318"],
+      "resultat": "11 av 20 poeng",
+      "kommentar": "Løser enkle ligninger og bruker regnereglene sikkert. Faktoriserer ikke med kvadratsetningene, og gjør fortegnsfeil når parenteser skal løses opp."
+    },
+    {
+      "dato": "2026-09-19",
+      "type": "muntlig samtale",
+      "kompetansemaal": ["KM13328"],
+      "resultat": null,
+      "kommentar": "Forklarer med egne ord hvorfor 2(x + 3) = 2x + 6, men klarer ikke å generalisere et figurmønster til et uttrykk med n."
+    },
+    {
+      "dato": "2026-10-03",
+      "type": "innlevering",
+      "kompetansemaal": ["KM13319", "KM13320"],
+      "resultat": "god måloppnåelse",
+      "kommentar": "Tegner lineære funksjoner i GeoGebra og finner stigningstallet. Forklarer stigningstallet som «hvor mye det øker per time» i en oppgave om taxipriser."
+    },
+    {
+      "dato": "2026-10-17",
+      "type": "skriftlig prøve",
+      "kompetansemaal": ["KM13322"],
+      "resultat": "6 av 15 poeng",
+      "kommentar": "Regner riktig med vekstfaktor for ett år, men bruker lineær økning når det gjelder flere år."
+    },
+    {
+      "dato": "2026-10-28",
+      "type": "gruppearbeid",
+      "kompetansemaal": ["KM13321", "KM13325"],
+      "resultat": null,
+      "kommentar": "Sammenlignet tre mobilabonnement i et regneark. Hadde en tydelig rolle i presentasjonen og drøftet hva som skjer hvis man bruker mer data enn planlagt."
+    }
+  ]
+}

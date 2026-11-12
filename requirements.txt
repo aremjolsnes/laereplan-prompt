@@ -1,0 +1,2 @@
+rdflib>=7.0
+anthropic>=1.0  # bare for --kall
