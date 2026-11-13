@@ -13,12 +13,21 @@ Med repoet kan du:
 
 Kort sagt: fra fagkode til AI-prompt. Skriptet henter riktig del av læreplanen fra Grep og setter den sammen med vurderingsdata til en prompt for en språkmodell.
 
-```
-fagkode + dato ──► laereplanutsnitt.rq ──► Grep-sandkassen (SPARQL) ──► liten graf (Turtle)
-                                                                          │
-vurderingsdata (JSON) ─────────────────────────────► prompt ◄── Markdown ◄┘
-                                                       │
-                                                       └──► (valgfritt) Claude ──► vurderingsstøtte
+> **Bygger på Grep-sandkassen.** laereplan-prompt er en anvendelse av
+> [Grep-sandkassen](https://github.com/aremjolsnes/grep-jena-fuseki/blob/main/docs/bruk.md), et åpent
+> SPARQL-endepunkt med Grep-dataene. Samlet, med meny, kan dokumentasjonen for begge leses i
+> [SPARQL-workbenchen](https://sparql.mjolne.com/dokumentasjon?endepunkt=Sandkassen&side=laereplan-prompt).
+
+```mermaid
+flowchart LR
+  inn(["Fagkode + dato"]) --> rq["laereplanutsnitt.rq"]
+  rq --> sk[("Grep-sandkassen<br/>(SPARQL)")]
+  sk --> graf["Liten graf<br/>(Turtle)"]
+  graf --> md["Læreplanutsnitt<br/>(Markdown)"]
+  md --> prompt["Prompt"]
+  vurd(["Vurderingsdata<br/>(JSON)"]) --> prompt
+  prompt -. "valgfritt: --kall" .-> claude["Claude"]
+  claude -.-> svar["Vurderingsstøtte"]
 ```
 
 Det viktigste skjer i første ledd: spørringen velger den læreplanen og de kompetansemålene som **gjaldt på datoen**, og tar med det en modell trenger for å lese målene riktig:
@@ -107,9 +116,9 @@ Datoen er vurderingsdatoen i vurderingsfila hvis den finnes, ellers dagens dato.
 | `maler/oppgave.md` | Brukerprompten, med plass til `{utsnitt}` og `{vurdering}` |
 | `eksempler/*.json` | Oppdiktede vurderingsdata: matematikk 10. trinn, naturfag 10. trinn og matematikk 1T |
 | `demo/` | Ferdige prompter (og svar) som reserve under demo |
-| `docs/demomanus.md` | Manus for en demo på ca. 30 minutter |
-| `docs/oeving.md` | Trinn for trinn: hva du gjør og hvor (VS Code, nettleser) i hvert punkt i demoen |
-| `docs/kostnad.md` | Overslag over hva `--kall` koster per elev, skole og land |
+| [`docs/demomanus.md`](docs/demomanus.md) | Manus for en demo på ca. 30 minutter |
+| [`docs/oeving.md`](docs/oeving.md) | Trinn for trinn: hva du gjør og hvor (VS Code, nettleser) i hvert punkt i demoen |
+| [`docs/kostnad.md`](docs/kostnad.md) | Overslag over hva `--kall` koster per elev, skole og land |
 
 ## Vurderingsdata
 
