@@ -20,14 +20,11 @@ Kort sagt: fra fagkode til AI-prompt. Skriptet henter riktig del av læreplanen 
 
 ```mermaid
 flowchart LR
-  inn(["Fagkode + dato"]) --> rq["laereplanutsnitt.rq"]
-  rq --> sk[("Grep-sandkassen<br/>(SPARQL)")]
-  sk --> graf["Liten graf<br/>(Turtle)"]
-  graf --> md["Læreplanutsnitt<br/>(Markdown)"]
-  md --> prompt["Prompt"]
-  vurd(["Vurderingsdata<br/>(JSON)"]) --> prompt
-  prompt -. "valgfritt: --kall" .-> claude["Claude"]
-  claude -.-> svar["Vurderingsstøtte"]
+  inn(["Fagkode<br/>+ dato"]) -- "spørring" --> sk[("Grep-<br/>sandkassen")]
+  sk -- "liten graf" --> utsnitt["Læreplan-<br/>utsnitt"]
+  utsnitt --> prompt["Prompt"]
+  vurd(["Vurderings-<br/>data"]) --> prompt
+  prompt -. "valgfritt" .-> svar["Claude:<br/>vurderingsstøtte"]
 ```
 
 Det viktigste skjer i første ledd: spørringen velger den læreplanen og de kompetansemålene som **gjaldt på datoen**, og tar med det en modell trenger for å lese målene riktig:
