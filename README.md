@@ -1,6 +1,6 @@
 # laereplan-prompt
 
-Dette er et privat initiativ utviklet av Are Mjølsnes med støtte fra Claude Code. Det er ikke et produkt eller en tjeneste fra Utdanningsdirektoratet, og Udir står ikke bak innholdet. Repoet er et eksperiment som skal vise hva som blir mulig når læreplanene i Grep er tilgjengelige som lenkede data.
+> Dette er et privat initiativ utviklet av Are Mjølsnes med støtte fra Claude Code. Det er ikke et produkt eller en tjeneste fra Utdanningsdirektoratet, og Udir står ikke bak innholdet. Repoet er et eksperiment som skal vise hva som kan være mulig når læreplanene i Grep er tilgjengelige som lenkede data.
 
 Spørsmålet er enkelt: Hvis en lærer vil bruke en språkmodell som støtte i vurderingsarbeidet, hvordan sikrer vi at modellen leser elevens resultater mot riktig læreplan? Det er ikke nok å lime inn et kompetansemål. Modellen må vite hvilken versjon av læreplanen som gjaldt da eleven ble vurdert, hva verbene i målet betyr, hvilke kjerneelementer målet hører til og hva det bygger på fra tidligere trinn.
 
